@@ -23,12 +23,10 @@ export async function getStaticPaths(){
     }
 }
 
-export function getStaticProps({params}){
-    console.log('fml');
+export function getStaticProps({params}){    
     console.log(params.id);
     const currentPost= getPostContent(params.id);
-    
-    console.log(currentPost.content);
+        
     return {
         props: {
             ...currentPost
