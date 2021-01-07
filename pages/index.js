@@ -1,4 +1,5 @@
 import Layout from "../shared/layout";
+import React from "react";
 import path from "path";
 import fs from "fs";
 import matter from "gray-matter";
@@ -6,9 +7,20 @@ import Link from "next/link";
 
 
 export default function Home({data}){
+    React.useEffect(() => {
+        const url = "https://vercelcors.vercel.app/api/index";
+        fetch(url)
+            .then(res => res.json())
+            .then(res => {
+                console.log(res);
+            }).catch(e => {
+                console.error(e);
+            });
+    });
+
     return (
         <Layout>
-            robert writes
+            Robert Writes
             <ul>
                 {
                     data.map((d, i) =>                     
