@@ -13,6 +13,7 @@ export default function Home({data}){
             .then(res => res.json())
             .then(res => {
                 console.log(res);
+                console.log("counter endpoint hit.");
             }).catch(e => {
                 console.error(e);
             });
