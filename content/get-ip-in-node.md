@@ -1,7 +1,7 @@
 ---
-title: 'get-ip-in-node'
+title: 'Get an IP Address from an HTTP Request in NodeJS on Vercel'
 slug: 'get-ip-in-node'
-date: '2021-1-2'
+date: '2021-01-02'
 ---
 
 

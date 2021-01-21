@@ -1,7 +1,7 @@
 ---
-title: 'Linux Processes 2'
+title: 'Some Notes on Linux Processes 2'
 slug: 'linux-process-2'
-date: '2021-1-2'
+date: '2021-01-02'
 ---
 
 # Linux Processes 2

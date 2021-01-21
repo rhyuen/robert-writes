@@ -1,5 +1,5 @@
 ---
-title: 'tar Notes'
+title: 'Linux tar (Tape Archive) Notes'
 slug: 'linux9-tar'
 date: '2020-12-25'
 ---

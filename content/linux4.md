@@ -1,5 +1,5 @@
 ---
-title: 'linux notes for hackers'
+title: 'Linux Notes for Hackers'
 slug: 'linux4'
 date: '2020-12-23'
 ---

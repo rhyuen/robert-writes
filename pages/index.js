@@ -6,32 +6,23 @@ import matter from "gray-matter";
 import Link from "next/link";
 
 
-export default function Home({data}){
-    React.useEffect(() => {
-        const url = "https://vercelcors.vercel.app/api/index";
-        fetch(url)
-            .then(res => res.json())
-            .then(res => {
-                console.log(res);
-                console.log("counter endpoint hit.");
-            }).catch(e => {
-                console.error(e);
-            });
-    });
+export default function Home({data}){   
 
     return (
         <Layout>
-            Robert Writes
-            <ul>
-                {
-                    data.map((d, i) =>                     
-                        <li key={i}>
-                            <Link href={`/posts/${d.slug}`}>{d.title}</Link><br/>
-                            {d.date} <br/>                       
-                        </li>                        
-                    )
-                }
-            </ul>
+            <h1>Robert Writes</h1>
+            <section>
+                <ul>
+                    {
+                        data.map((d, i) =>                     
+                            <li key={i}>
+                                <Link href={`/posts/${d.slug}`}>{d.title}</Link><br/>
+                                {d.date} <br/>                       
+                            </li>                        
+                        )
+                    }
+                </ul>
+            </section>
         </Layout>
     )
 }
@@ -50,7 +41,13 @@ export function getStaticProps(){
 
     return {
         props: {
-            data: paths
+            data: paths.sort((a, b) => {
+                if (a.date < b.date) {
+                    return 1
+                  } else {
+                    return -1
+                  }
+            })
         }
     }
 };

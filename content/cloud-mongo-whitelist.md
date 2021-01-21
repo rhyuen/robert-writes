@@ -1,7 +1,7 @@
 ---
 title: 'Vercel and Whitelisting your MongoDB instance on Mongo Cloud'
 slug: 'cloud-mongo-whitelist'
-date: '2021-1-9'
+date: '2021-01-09'
 ---
 
 I was setting up a new Vercel API to try out their CORS example code [here](https://vercel.com/knowledge/how-to-enable-cors).
