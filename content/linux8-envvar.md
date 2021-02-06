@@ -2,6 +2,7 @@
 title: 'Linux Environment Variable Process Notes'
 slug: 'linux8-envvar'
 date: '2020-12-24'
+tags: 'linux'
 ---
 
 # Environment Variables (DEC 24,2020)

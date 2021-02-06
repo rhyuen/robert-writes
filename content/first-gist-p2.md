@@ -2,6 +2,7 @@
 title: 'First Gist - Part 2: Styled Code Syntax'
 slug: 'first-gist-p2'
 date: '2021-01-21'
+tags: 'markdown'
 ---
 
 Continued from [Part 1](/posts/first-gist).

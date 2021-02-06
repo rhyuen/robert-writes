@@ -17,7 +17,8 @@ export default function Home({data}){
                         data.map((d, i) =>                     
                             <li key={i}>
                                 <Link href={`/posts/${d.slug}`}>{d.title}</Link><br/>
-                                {d.date} <br/>                       
+                                <p>&emsp;{d.tags} </p>
+                                <p>&emsp;{d.date}</p>
                             </li>                        
                         )
                     }

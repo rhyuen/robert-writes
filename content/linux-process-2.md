@@ -2,6 +2,7 @@
 title: 'Some Notes on Linux Processes 2'
 slug: 'linux-process-2'
 date: '2021-01-02'
+tags: 'linux'
 ---
 
 # Linux Processes 2

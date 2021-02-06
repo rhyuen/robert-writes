@@ -2,6 +2,7 @@
 title: 'An HTTP Request behind a Proxy on Vercel'
 slug: 'http-request-behind-a-proxy'
 date: '2021-01-16'
+tags: 'node,serverless'
 ---
 
 # Getting the Details of an HTTP Request in NodeJS whilst behind a proxy in Vercel.

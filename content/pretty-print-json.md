@@ -2,6 +2,7 @@
 title: 'Pretty Print JSON using Bash'
 slug: 'pretty-print-json'
 date: '2021-01-19'
+tags: 'linux'
 ---
 
 # Pretty Printing JSON on the Bash Command Line with 2 solutions

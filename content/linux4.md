@@ -2,6 +2,7 @@
 title: 'Linux Notes for Hackers'
 slug: 'linux4'
 date: '2020-12-23'
+tags: 'linux'
 ---
 
 # Some notes from Linux for Hackers

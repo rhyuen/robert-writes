@@ -2,6 +2,7 @@
 title: 'Linux User Permission Notes'
 slug: 'linux5'
 date: '2020-12-22'
+tags: 'linux'
 ---
 
 # User Permissions and what nto.

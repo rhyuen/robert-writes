@@ -2,6 +2,7 @@
 title: 'First Gist, Part 1'
 slug: 'first-gist'
 date: '2021-01-21'
+tags: 'markdown'
 ---
 
 # My First Github Gist 

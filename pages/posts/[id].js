@@ -14,12 +14,15 @@ const Code = ({language, value}) => {
     );
 }
 
-export default function Post({content, slug, date, title}){
+export default function Post({content, slug, date, title, tags}){
     return (
         <Layout>
             <h1>{title}</h1>
             <h2>{date}</h2>
             <Link href="/">Home</Link>
+            <p>
+            {tags}
+            </p>            
             <Markdown plugins={[gfm]} source = {content} renderers={{code: Code}}/>
         </Layout>
     )

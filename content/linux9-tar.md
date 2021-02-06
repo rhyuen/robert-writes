@@ -2,6 +2,7 @@
 title: 'Linux tar (Tape Archive) Notes'
 slug: 'linux9-tar'
 date: '2020-12-25'
+tags: 'linux'
 ---
 
 # tar (tape archive) (Dec.25,2020)

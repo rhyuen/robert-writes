@@ -2,6 +2,7 @@
 title: 'Linux Process Management Notes'
 slug: 'linux7-process'
 date: '2020-12-23'
+tags: 'linux'
 ---
 
 # process management on Dec 23, 2020

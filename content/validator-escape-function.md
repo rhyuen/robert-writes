@@ -2,6 +2,7 @@
 title: 'On ValidatorJS  the .escape() function'
 slug: 'validator-escape-function'
 date: '2021-01-17'
+tags: 'javascript'
 ---
 
 # Was wondering if the `validator.escape("some string goes here") mutates the string or returns a new one.
