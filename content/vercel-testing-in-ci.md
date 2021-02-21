@@ -65,8 +65,25 @@ Run the line with '--confirm' as a background process using the `&` operator.
 
 According to this StackOverflow post [here](https://unix.stackexchange.com/a/451502) the `&` operator turns the preceeding command into a background process AND serves as a line terminator like `;`.
 
-It should now work.
+This line in particular from the link above:
+"`& acts as a command separator, as well as placing the command preceding it in the background.`"
 
 ```bash
 $ vercel dev --listen 8080 --token $VERCEL_TOKEN --confirm &
 ```
+
+Working Scripts are as follows: 
+
+```javascript
+{
+    "test": "jest",
+    "dev:start": "vercel dev --listen 8080 &",
+    "dev:test": "npm run dev:start && wait-on tcp:8080 && npm run test && npm run cleanup",
+    "ci:dev": "vercel dev --listen 8080 --token $VERCEL_TOKEN --confirm &",    
+    "cleanup": "ps | grep node | awk '{print $1}' | xargs kill -9 $1",
+    "ci": "NODE_ENV=test npm run ci:dev && wait-on tcp:8080 && npm run test"
+}
+```
+
+
+It should now work.
