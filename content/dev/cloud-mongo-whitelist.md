@@ -13,7 +13,9 @@ I decided to add persistent storage: MongoDB.
 
 I tried it out locally and it worked.  A lot of frivolous DB entries were added.
 
+```bash
 > $ vercel --prod  # deploy to production
+```
 
 All of a sudden, my requests start timing out and my endpoint starts sending me back empty error messages.
 

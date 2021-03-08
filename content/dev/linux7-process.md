@@ -11,9 +11,9 @@ tags: 'linux'
 
 To move a background process spawned with the & operator, you can type :
 
-> $ fg 123445 # where the number is the PID obtained via running $ ps aux
-
-
+```bash
+ $ fg 123445 # where the number is the PID obtained via running $ ps aux
+```
 
 # Timing
 

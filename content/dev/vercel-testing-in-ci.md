@@ -44,9 +44,11 @@ There's a prompt that demands questions be answered.
 
 ![](/images/vercel-login-ci-prompt.png)
 
-Solution
+## Solution
 
-"vercel dev --listen 8080 --token $VERCEL_TOKEN --confirm"
+```bash
+$ vercel dev --listen 8080 --token $VERCEL_TOKEN --confirm"
+```
 
 
 # There's an issue with the PORT: 8080 being Refused

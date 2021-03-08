@@ -29,7 +29,8 @@ export default function Post({content, slug, date, title, tags}){
 }
 
 export async function getStaticPaths(){
-    const blah = getPostIds();     
+    const directoryPath = "content/dev";
+    const blah = getPostIds(directoryPath);     
     return {
         paths:  blah,
         fallback: false
@@ -38,7 +39,8 @@ export async function getStaticPaths(){
 
 export function getStaticProps({params}){    
     console.log(params.id);
-    const currentPost= getPostContent(params.id);
+    const directoryPath = "content/dev";
+    const currentPost= getPostContent(directoryPath, params.id);
         
     return {
         props: {

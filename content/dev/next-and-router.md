@@ -53,7 +53,7 @@ According to this post [here](https://stackoverflow.com/a/61043260), on first re
     const {id} = router.query;
 ```
 
-The query object is an empty object. But, within the contact of the `useEffect` hook, the value for `router.query` is populated/defined.  So, I moved the logic requiring the `router.query` value(s) within the hook and it largely resolved the issue.  I also added the 
+The query object is an empty object. But, within the context of the `useEffect` hook, the value for `router.query` is populated/defined.  So, I moved the logic requiring the `router.query` value(s) within the hook and it largely resolved the issue.  I also added the following,
 
 ```javascript
  Object.keys(data).length === 0 

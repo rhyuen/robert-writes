@@ -1,5 +1,6 @@
 import Footer from "./footer";
 import {useEffect} from "react";
+import Nav from "./nav.js";
 import {useRouter} from "next/router";
 
 export default function Layout({children}){
@@ -22,8 +23,17 @@ export default function Layout({children}){
 
     return (
         <main>
+            <Nav/>
             {children}
             <Footer/>
+            <style jsx>{`
+                main{
+                    max-width: 1000px;
+                    margin: 0 auto;
+                }
+
+            `}
+            </style>
         </main>
     )
 }

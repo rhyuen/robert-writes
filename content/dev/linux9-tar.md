@@ -7,7 +7,9 @@ tags: 'linux'
 
 # tar (tape archive) (Dec.25,2020)
 
-> $ tar -cvf latest.tar fileone.txt filetwo.txt filethree.js
+```bash
+$ tar -cvf latest.tar fileone.txt filetwo.txt filethree.js
+```
 
 c is for concatenate
 v is for verbose
@@ -18,24 +20,29 @@ f is for filename to mush it all into.
 t for text
 f is for filename
 
-
+```bash
 > $ tar -xf latest.tar # extracts tar contents into directory
+```
 
 
-# compression
+## Compression
 
 For varying degrees of compression and decompression.
 
-> $ gzip archive.tar
-> $ gunzip archive.tar.gz
+```bash
+$ gzip archive.tar
+$ gunzip archive.tar.gz
 
-> $ compress archive.tar
-> $ uncompress archive.tar.Z
 
-> $ bzip2 archive.tar 
-> $ bunzip2 archive.tar.bz2
+$ compress archive.tar
+$ uncompress archive.tar.Z
+
+$ bzip2 archive.tar 
+$ bunzip2 archive.tar.bz2
 
 # stopping a service
-> $ service rsyslog stop
-> $ service name_of_service start
-> $ service name_of_service restart
+$ service rsyslog stop
+$ service name_of_service start
+$ service name_of_service restart
+
+```

@@ -15,10 +15,12 @@ tags: 'bash'
 
 You can reload your `.bashrc` file via command line using the following methods:
 
+```bash
 > $ ~/.bashrc
 
-or 
+# or 
 
 > $ source ~/.bashrc
+```
 
 [Source](https://btholt.github.io/complete-intro-to-linux-and-the-cli/environments#bashrc-and-bash_profile)

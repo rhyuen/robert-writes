@@ -13,12 +13,14 @@ tags: 'linux'
 
 Once again: 
 
-> $ ps
+```bash
+$ ps
 
-> $ ps aux # every process currently running.
+$ ps aux # every process currently running.
 
 # shows currently running jobs.
-> $ jobs
+$ jobs
+```
 
 Closing one's terminal does end all your jobs running in the background.  This can be avoided or worked around with `tmux` or `screen`.
 

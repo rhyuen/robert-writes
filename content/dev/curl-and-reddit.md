@@ -11,19 +11,25 @@ I wanted a some data that was familiar but not too familiar.  I recall learning 
 
 ## Attempt 1
 
+```bash
 curl https://reddit.com/.json
+```
 
 Returns nothing
 
 ## Attempt 2
 
+```bash
 curl https://reddit.com/.json -o sample.json
+```
 
 Returns a blank file.
 
 ## Attempt 3
 
+```bash
 curl -L https://reddit.com/.json
+```
 
 `-L` means to follow redirects.
 

@@ -1,21 +1,19 @@
-import Layout from "../shared/layout";
-import React from "react";
 import path from "path";
 import fs from "fs";
 import matter from "gray-matter";
+import Layout from "../shared/layout.js";
 import Link from "next/link";
 
-
-export default function Home({data}){   
-
+export default function ConsumptionHome({data}){
     return (
-        <Layout>          
-            <section>
+            <Layout>
+                <h1>List of Media Consumption</h1>
+                <section>
                 <ul>
                     {
                         data.map((d, i) =>                     
                             <li key={i}>
-                                <Link href={`/posts/${d.slug}`}>{d.title}</Link><br/>
+                                <Link href={`/consumption/${d.slug}`}>{d.title}</Link><br/>
                                 <p>&emsp;{d.tags} </p>
                                 <p>&emsp;{d.date}</p>
                             </li>                        
@@ -23,12 +21,12 @@ export default function Home({data}){
                     }
                 </ul>
             </section>
-        </Layout>
+            </Layout>
     )
 }
 
-export function getStaticProps(){
-    const contentDirectoryPath = "content/dev";
+export function getStaticProps({params}){    
+    const contentDirectoryPath = "content/consumption";
     const postsDir = path.join(process.cwd(), contentDirectoryPath);
     const allPostsData = fs.readdirSync(postsDir);    
     const paths = allPostsData.map(p => {
@@ -51,4 +49,4 @@ export function getStaticProps(){
             })
         }
     }
-};
+}
