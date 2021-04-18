@@ -1,5 +1,5 @@
 ---
-title: 'The difference the .bashrc and .bash_profile files'
+title: 'The difference between the .bashrc and .bash_profile files'
 slug: 'bashrc'
 date: '2021-01-02'
 tags: 'bash'

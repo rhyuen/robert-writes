@@ -1,5 +1,5 @@
 ---
-title: 'The difference the .bashrc and .bash_profile files'
+title: 'Monetization in HTML Meta tags.'
 slug: 'monetization-in-meta'
 date: '2021-03-11'
 tags: 'html,monetization,crypto'
