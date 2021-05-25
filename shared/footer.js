@@ -1,4 +1,5 @@
 import React from "react";
+import {sendEmailDetails} from "../services/index";
 
 export default function Footer(){
 
@@ -6,20 +7,20 @@ export default function Footer(){
 
     const handleSubmit = async (e) => {
         e.preventDefault();
-        const endpointURL = "https://vercelcors.vercel.app/api/email";        
-        const data = {
-            email: email
-        };
-        const response = await fetch(endpointURL, {
-            mode: "cors",
-            method: "POST",
-            headers: {
-                "Content-Type": "application/json"
-            },
-            body: JSON.stringify(data)
-        }).then(res => res.json());
-        console.log(response);
-        setEmail("");
+        let mounted = true;
+        sendEmailDetails(email).then(res => {
+            if(mounted){
+                setEmail("");
+            }
+        
+        }).catch(e => {
+            console.log(e);
+            console.log("error with sending email");
+        }).finally(()=>{
+            return () => {
+                mounted = false;
+            }
+        });        
     }
 
     return (
