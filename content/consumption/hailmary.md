@@ -1,11 +1,11 @@
 ---
-title: 'The Premonition'
-slug: 'premonition'
+title: 'Hail Mary'
+slug: 'hailmary'
 date: '2021-07-03'
 tags: 'fiction,book'
 ---
 
-# Details about the book 
+## Details about the book
 
 The book is by Andy Weir, the author of the Martian.  
 
@@ -13,11 +13,11 @@ I finished the book on July 3, 2021.  It's 496 pages long according to Google.  
 
 There are 30 chapters, 29 and an epilogue, centered on the main character with flashbacks; however, those flashbacks don't get dedicated chapters.
 
-# Premise
+## Premise
 
 An odd spectral emission results in the discovery that the sun's light output is diminishing exponentially.  The story follows a scientist's journey to prevent the impending apocalypse that is sure to follow.
 
-# Characters
+## Characters
 
 - Ryland Grace
 
@@ -29,7 +29,7 @@ Program Director for the Hail Mary project to find a way to address the astropha
 - Rocky
 An engineer that works with Grace throughout the book.
 
-# Plot
+## Plot
 
 The book beings with Grace waking up and not remembering anything.  Throughout the book he recovers his memory. He recalls that he's on a ship being sent to a star 12 light years away from Earth called Tau Ceti.  During his time on Earth, he learns from a friend and eventually it's announced to the world that something is reducing the sunlight that the Earth gets from the sun.  A probe is promptly built and sent to Venus which is where spectra is coming from that may be the cause of the issue with the sun.  It returns with a sample as a soon as possible.  We learn that whatever is covering the sun and interacting with Venus is covering it at an exponential rate and will sufficiently dampen the light output to cause catastrophic change to the climate on Earth, in the form of another ice age.
 
