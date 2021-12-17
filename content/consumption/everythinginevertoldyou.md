@@ -5,7 +5,7 @@ date: '2021-04-18'
 tags: 'fiction,book'
 ---
 
-# Notes
+## Notes on the reading of the book
 
 Spoilers and plot below, some of which probably aren't that accurate since I finished writing this over a month (may 25) after I finished reading it (april 18).  Book is by [Celeste Ng](https://en.wikipedia.org/wiki/Celeste_Ng)
 
