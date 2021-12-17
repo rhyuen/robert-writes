@@ -5,7 +5,7 @@ date: '2021-01-02'
 tags: 'bash'
 ---
 
-# A Difference between .bashrc and .bash_profile
+## A Difference between .bashrc and .bash_profile
 
 `.bash_profile` is only run each time you login to your computer.
 
