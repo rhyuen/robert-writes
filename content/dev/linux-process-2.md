@@ -5,13 +5,13 @@ date: '2021-01-02'
 tags: 'linux'
 ---
 
-# Linux Processes 2
+## Linux Processes 2
 
 `ps` stands for processes snapshot.
 
 [Source](https://btholt.github.io/complete-intro-to-linux-and-the-cli/processes)
 
-Once again: 
+Once again:
 
 ```bash
 $ ps
@@ -25,7 +25,6 @@ $ jobs
 Closing one's terminal does end all your jobs running in the background.  This can be avoided or worked around with `tmux` or `screen`.
 
 [Source](https://btholt.github.io/complete-intro-to-linux-and-the-cli/processes#foreground-and-background)
-
 
 Also, it seems `PS1` is one of those fancy reserved words and/or preset environment variables.
 
