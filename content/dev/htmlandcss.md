@@ -1,5 +1,5 @@
 ---
-title: 'Stuff I've learned doing a few weeks of CSS/HTML'
+title: 'Stuff I learned doing a few weeks of CSS and HTML'
 slug: 'htmlandcss'
 date: '2021-07-17'
 tags: 'css,html'
