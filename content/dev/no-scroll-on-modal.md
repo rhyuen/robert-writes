@@ -1,5 +1,5 @@
 ---
-title: 'No scrolling when the modal is visible.'
+title: 'No scrolling when the modal is visible'
 slug: 'no-scroll-on-modal'
 date: '2022-04-25'
 tags: 'web,javascript,html'
