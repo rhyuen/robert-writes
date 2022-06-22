@@ -1,6 +1,6 @@
 ---
 title: 'Wolverine Vol 2 by Percy'
-slug: 'wolverine'
+slug: 'wolverine2'
 date: '2022-06-22'
 tags: 'fiction,book'
 ---

@@ -8,6 +8,11 @@ export default function Nav(){
                 <li><Link href="/consumption">Consumption</Link></li>
                 <li><Link href="/about">About</Link></li>
             </ul>
+            <style jsx>{`
+                nav{                    
+                    grid-column: content-start/content-end;
+                }
+                `}</style>
         </nav>
     )
 }

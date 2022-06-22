@@ -24,14 +24,19 @@ export default function Layout({children}){
     return (
         <main>
             <Nav/>
-            {children}
+            <section>
+                {children}
+            </section>
             <Footer/>
             <style jsx>{`
                 main{
-                    max-width: 1000px;
-                    margin: 0 auto;
+                    display: grid;
+                    grid-template-columns: 1fr [content-start] min(60ch, 100%) [content-end] 1fr;                    
+                    padding: 1rem;
+                }                
+                section {
+                    grid-column: content-start/content-end;
                 }
-
             `}
             </style>
         </main>

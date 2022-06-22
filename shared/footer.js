@@ -33,6 +33,14 @@ export default function Footer(){
                     placeholder ="email"/><br/>
                 <input type = "submit" value="Subscribe"/>
             </form>
+            <style jsx>{
+                `
+                footer{                    
+                    grid-column: content-start/content-end;
+                }
+                `
+            }
+            </style>
         </footer>
     );
 }

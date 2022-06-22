@@ -1,6 +1,6 @@
 ---
 title: 'Updating Burp in Kali'
-slug: 'update-burp-linux'
+slug: 'update-burp-kali'
 date: '2021-12-26'
 tags: 'Linux,kali'
 ---

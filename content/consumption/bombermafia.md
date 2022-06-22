@@ -4,12 +4,11 @@ slug: 'bombermafia'
 date: '2021-06-17'
 tags: 'nonfiction,book'
 ---
-# Details about me reading it and other things about the book.
+## Details about me reading it and other things about the book
 
 I finished the book on June 9/21. I borrowed it from the VPL.  The book is by Malcolm Gladwell.  It's not his usual pop psychology book.  It's fairly short at 185 pages according to Google.
 
-
-# Contents (Plot and Spoilers/Details)
+## Contents (Plot and Spoilers/Details)
 
 > The below is based on my memory after finishing reading it and written some time between June 9, 21 and the post date.  Misremembering/incorrectness is my mistake.
 
@@ -29,7 +28,6 @@ Napalm was devised during World War 2 in the US by some academics.  It was event
 
 The replacement, I think his name was Le May, ended up flying the fleet during the day to Japan, which wasn't defended well by air.  They ended up bombing most of the major cities of Japan causing massive losses of life and excessive amounts of damage (> 50%).  The atomic bombs dropped in Japan some time during the campaign of firebombing.  This resulted in the surrender of Japan before the winter, which was earlier than anticipated.
 
+## Summary
 
-# Summary
-
-Thoughts, overall I thought it was interesting and I learned some stuff.  I suspected that using napalm against civilians was a war crime.  I searched and it seems I was correct.  The first link from 'is napalm a war crime' on google from 'https://napalmbiography.com' states that it is.  Though I didn't click on the link. 
+Thoughts, overall I thought it was interesting and I learned some stuff.  I suspected that using napalm against civilians was a war crime.  I searched and it seems I was correct.  The first link from 'is napalm a war crime' on google from 'https://napalmbiography.com' states that it is.  Though I didn't click on the link.

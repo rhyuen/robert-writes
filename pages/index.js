@@ -7,24 +7,28 @@ import Link from "next/link";
 
 
 export default function Home({data}){   
-
     return (
         <Layout>          
-            <section>
-                <ul>
-                    {
-                        data.map((d, i) =>                     
-                            <li key={i}>
-                                <Link href={`/posts/${d.slug}`}>{d.title}</Link><br/>
-                                <p>&emsp;{d.tags} </p>
-                                <p>&emsp;{d.date}</p>
-                            </li>                        
-                        )
-                    }
-                </ul>
-            </section>
+            <List items={data}/>
         </Layout>
     )
+}
+
+const List = ({items}) => {
+    return (
+        
+        <ul>
+            {
+                items.map((d, i) =>                     
+                    <li key={i}>
+                        <Link href={`/posts/${d.slug}`}>{d.title}</Link><br/>
+                        <p>&emsp;{d.tags} </p>
+                        <p>&emsp;{d.date}</p>
+                    </li>                        
+                )
+            }
+        </ul>                    
+    );
 }
 
 export function getStaticProps(){
