@@ -9,8 +9,8 @@ tags: 'web,javascript,html'
 
 You make a modal appear but the page that the modal appears on is larger than the modal.  As a result, the user can still scroll whilst the modal is visible.
 
-```js
-
+```javascript
+console.log('hi');
 ```
 
 [Stack Overflow](https://stackoverflow.com/a/53932290)
