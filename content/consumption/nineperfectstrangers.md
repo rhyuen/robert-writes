@@ -24,3 +24,13 @@ Yao wakes from the sedative and it is revealed that the sound of the flames are 
 Frances (the novelist) thinks about something Masha said "Nothing is forever" and tries the door to exit the room.  It opens.  It is revealed to the guests that the smell of smoke came from burning the contents of a bin.
 
 Masha and Yao come down to greet the guests.  Yao, resigned to continuing the charade, directs the guests to a meal.  Heather confronts Masha.  Masha attacks Heather with a sharp letter opener mentioned earlier in the book.  Frances hits Masha in the head with a candle holder and she's knocked down.  Frances' masseuse from the beginning of the book returns with her partner who's a cop.  Masha is implied to be arrested.  The guests stay the night at the resort before leaving the next day.
+
+## Writing this on June 22, 2022
+
+In the epilogue,
+
+Frances and Tony get married.  Napolean seems to be suffering from depression from the loss of his son, who he now feels like he better understands.  Ben and his partner get divorced.  Ben goes to Napolean's child's funeral with Napolean's daughter.  The divorcee becomes friends with her ex-husband's new girlfriend.  The lawyer now becomes open to having children.
+
+Yao gets back together with a previous partner and has a child with her.  He stumbles upon Masha on tv.
+
+Masha spent time in prison but is released and is selling an exclusive, still illegal, version of the drugged up spa that our Frances and company survived.  Someone else also sees Masha on tv, her ex-husband.  It's revealed that her ex-husband never wanted to leave her.  After the death of her first child, Masha had another child, but she wanted no part in his/her life.  Her ex-husband tries to get in touch with her through the years but she doesn't respond.  The ex-husband is holding his infant grandchild and says to the child, 'that's your grandmother on tv'.
