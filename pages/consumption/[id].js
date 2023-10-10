@@ -9,10 +9,18 @@ export default function ConsumptionPost({content, slug, date, title, tags}){
     return (
         <Layout>
             <h1>{title}</h1>
-            <h2>{date}</h2>
+            <time>{date}</time>
             <p><Link href="/consumption">Home</Link></p>
-            <p>{tags}</p>      
-            <Markdown plugins={[gfm]} source = {content}/>      
+            <p className="tag-container">
+                {tags.split(",").map(t => {
+                    return (
+                        <span className="tag-container__item">
+                            {t}
+                        </span>
+                    )
+                })}
+            </p>      
+            <Markdown remarkPlugins={[gfm]} children = {content}/>      
         </Layout>
     )
 }

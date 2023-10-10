@@ -1,25 +1,26 @@
 {
-  "name": "robertwrites",
+  "name": "robert-writes",
   "version": "1.0.0",
-  "description": "",
+  "description": "Where I put things that I thought were particularly useful at the time of writing and am reasonably sure, due to infrequency of use, that I will forget.",
   "main": "index.js",
+  "directories": {
+    "lib": "lib"
+  },
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "start": "next",
-    "deploy": "vercel --prod",
-    "dev": "next dev -p 3001"
+    "start": "next dev",
+    "dev": "next dev"
   },
   "keywords": [],
   "author": "",
   "license": "ISC",
   "dependencies": {
-    "gray-matter": "^4.0.2",
-    "next": "^10.0.4",
-    "react": "^17.0.1",
-    "react-dom": "^17.0.1",
-    "react-markdown": "^5.0.3",
-    "react-syntax-highlighter": "^15.4.3",
-    "remark-gfm": "^1.0.0",
-    "validator": "^13.5.2"
+    "gray-matter": "^4.0.3",
+    "next": "^13.5.4",
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0",
+    "react-markdown": "^9.0.0",
+    "react-syntax-highlighter": "^15.5.0",
+    "remark-gfm": "^4.0.0"
   }
 }

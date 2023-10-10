@@ -8,7 +8,10 @@ import Link from "next/link";
 
 export default function Home({data}){   
     return (
-        <Layout>          
+        <Layout>
+            <section style={{marginBottom: "4rem"}}>
+                <p>Just a series of posts on problems I've had to address whilst using computers.</p>
+            </section>        
             <List items={data}/>
         </Layout>
     )
@@ -17,13 +20,23 @@ export default function Home({data}){
 const List = ({items}) => {
     return (
         
-        <ul>
+        <ul className="root__list">
             {
                 items.map((d, i) =>                     
-                    <li key={i}>
+                    <li key={i} className="root__list__item">
                         <Link href={`/posts/${d.slug}`}>{d.title}</Link><br/>
-                        <p>&emsp;{d.tags} </p>
-                        <p>&emsp;{d.date}</p>
+                        <div className="tag-container">
+                        {
+                            d.tags.split(",").map(t => {
+                                return (
+                                    <span className="tag-container__item">
+                                        {t}
+                                    </span>
+                                )
+                            })
+                        } 
+                        </div>
+                        <time>{d.date}</time>
                     </li>                        
                 )
             }

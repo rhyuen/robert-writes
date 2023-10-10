@@ -1,14 +1,14 @@
 import Footer from "./footer";
-import {useEffect} from "react";
+import { useEffect } from "react";
 import Nav from "./nav.js";
-import {useRouter} from "next/router";
+import { useRouter } from "next/router";
 
-export default function Layout({children}){
+export default function Layout({ children }) {
     const router = useRouter();
     console.log(router.query);
     console.log(router.pathname);
 
-    useEffect(() => {       
+    useEffect(() => {
 
         const url = `https://vercelcors.vercel.app/api/index?p=/posts/${router.query.id}`;
         fetch(url)
@@ -22,23 +22,26 @@ export default function Layout({children}){
     }, []);
 
     return (
-        <main>
-            <Nav/>
-            <section>
-                {children}
-            </section>
-            <Footer/>
-            <style jsx>{`
+        <>
+            <main>
+                <Nav />
+                <section>
+                    {children}
+                </section>
+
+                <style jsx>{`
                 main{
                     display: grid;
-                    grid-template-columns: 1fr [content-start] min(60ch, 100%) [content-end] 1fr;                    
+                    grid-template-columns: 1fr [content-start] min(80ch, 100%) [content-end] 1fr;                    
                     padding: 1rem;
                 }                
                 section {
                     grid-column: content-start/content-end;
                 }
             `}
-            </style>
-        </main>
+                </style>
+            </main>
+            <Footer />
+        </>
     )
 }
