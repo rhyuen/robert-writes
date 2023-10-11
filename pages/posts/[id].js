@@ -37,26 +37,24 @@ const Code = ({ children, className, node, ...rest }) => {
 export default function Post({ content, slug, date, title, tags }) {
     return (
         <Layout>
-            <h1 style={{
-                fontWeight: 600
-            }}>{title}</h1>
-            <p>
-                <time datetime={date}>{date}</time>
-            </p>
-            <Link href="/">Home</Link>
-            <p>
-                {
-                    tags.split(",").map(t => {
-                        return (
-                            <span style={{
-                                fontWeight: 200
-                            }}>
-                                {t}&nbsp;
-                            </span>
-                        )
-                    })
-                }
-            </p>
+            <div className="post__meta-container">
+                <time dateTime={date}>{date}</time>
+                <div class="post__meta-container__inline-row">
+                    <Link href="/" className="back-button"></Link>
+                    <h1>{title}</h1>                    
+                </div>
+                <div className="tag-container">
+                    {
+                        tags.split(",").map((t, index) => {
+                            return (
+                                <span key={index} className="tag-container__item">
+                                    {t}
+                                </span>
+                            )
+                        })
+                    }
+                </div>
+            </div>
             {/* <Markdown remarkPlugins={[gfm]} 
                 children = {content} 
                 components={{code: Code}}/> */}

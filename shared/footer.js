@@ -31,7 +31,7 @@ export default function Footer() {
                     <input type="text"
                         value={email}
                         onChange={e => setEmail(e.target.value)}
-                        placeholder="email" /><br />
+                        placeholder="newestuser@email.ca" /><br />
                     <input type="submit" value="Subscribe" />
                 </form>
             </div>

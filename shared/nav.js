@@ -27,9 +27,7 @@ export default function Nav(){
                     font-weight: 600;
                     font-size: 1.1rem;
                 }
-
               
-
                 nav .nav__right-side li{
                     margin-left: var(--SPACING);
                 }

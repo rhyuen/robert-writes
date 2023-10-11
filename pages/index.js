@@ -6,55 +6,55 @@ import matter from "gray-matter";
 import Link from "next/link";
 
 
-export default function Home({data}){   
+export default function Home({ data }) {
     return (
         <Layout>
-            <section style={{marginBottom: "4rem"}}>
+            <section className="preamble">
                 <p>Just a series of posts on problems I've had to address whilst using computers.</p>
-            </section>        
-            <List items={data}/>
+            </section>
+            <List items={data} />
         </Layout>
     )
 }
 
-const List = ({items}) => {
+const List = ({ items }) => {
     return (
-        
+
         <ul className="root__list">
             {
-                items.map((d, i) =>                     
-                    <li key={i} className="root__list__item">
-                        <Link href={`/posts/${d.slug}`}>{d.title}</Link><br/>
+                items.map((d, i) =>
+                    <li key={i} className="root__list__item">                        
+                        <time>{d.date}</time>                        
+                        <Link href={`/posts/${d.slug}`}>{d.title}</Link>
                         <div className="tag-container">
-                        {
-                            d.tags.split(",").map(t => {
-                                return (
-                                    <span className="tag-container__item">
-                                        {t}
-                                    </span>
-                                )
-                            })
-                        } 
+                            {
+                                d.tags.split(",").map((t, index) => {
+                                    return (
+                                        <span className="tag-container__item" key={index}>
+                                            {t}
+                                        </span>
+                                    )
+                                })
+                            }
                         </div>
-                        <time>{d.date}</time>
-                    </li>                        
+                    </li>
                 )
             }
-        </ul>                    
+        </ul>
     );
 }
 
-export function getStaticProps(){
+export function getStaticProps() {
     const contentDirectoryPath = "content/dev";
     const postsDir = path.join(process.cwd(), contentDirectoryPath);
-    const allPostsData = fs.readdirSync(postsDir);    
+    const allPostsData = fs.readdirSync(postsDir);
     const paths = allPostsData.map(p => {
-        let curr = path.join(process.cwd(), contentDirectoryPath, p);        
-        let content = fs.readFileSync(curr, "utf8"); 
-        let matterResult = matter(content)      
+        let curr = path.join(process.cwd(), contentDirectoryPath, p);
+        let content = fs.readFileSync(curr, "utf8");
+        let matterResult = matter(content)
         curr = curr.replace(".md", "");
-        return {...matterResult.data, curr};
-        
+        return { ...matterResult.data, curr };
+
     });
 
     return {
@@ -62,9 +62,9 @@ export function getStaticProps(){
             data: paths.sort((a, b) => {
                 if (a.date < b.date) {
                     return 1
-                  } else {
+                } else {
                     return -1
-                  }
+                }
             })
         }
     }

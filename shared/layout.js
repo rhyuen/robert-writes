@@ -34,6 +34,7 @@ export default function Layout({ children }) {
                     display: grid;
                     grid-template-columns: 1fr [content-start] min(80ch, 100%) [content-end] 1fr;                    
                     padding: 1rem;
+                    padding-block-end: calc(var(--SPACING)*8);
                 }                
                 section {
                     grid-column: content-start/content-end;
